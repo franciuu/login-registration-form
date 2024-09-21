@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in & Sign up Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="box">
+      <div class="inner-box">
+        <div class="form-wrap">
+          <form action="/" autocomplete="off" class="sign-in-form">
+            <div class="logo">
+              <img src="images/logo.png" alt="easyclass logo" />
+              <h3>EasyClass</h3>
+            </div>
+
+            <div class="heading">
+              <h2>Welcome back!</h2>
+              <h6>Not registred yet?</h6>
+              <a href="#" class="toggle">Sign up</a>
+            </div>
+
+            <div class="actual-form">
+              <div class="input-wrap">
+                <input
+                  type="text"
+                  minlength="4"
+                  class="input-field"
+                  required
+                />
+                <label>Name</label>
+              </div>
+
+              <div class="input-wrap">
+                <input
+                  type="password"
+                  class="input-field"
+                  required
+                />
+                <label>Password</label>
+              </div>
+
+              <input type="submit" value="Sign In" class="sign-btn" />
+
+              <p class="text">
+                Forgotten your password or you login details?
+                <a href="#">Get help</a> signing in
+              </p>
+            </div>
+          </form>
+
+          <form action="/" autocomplete="off" class="sign-up-form">
+            <div class="logo">
+              <img src="images/logo.png" alt="easyclass logo" />
+              <h3>EasyClass</h3>
+            </div>
+
+            <div class="heading">
+              <h2>Get started</h2>
+              <h6>Already have an account?</h6>
+              <a href="#" class="toggle">Sign in</a>
+            </div>
+
+            <div class="actual-form">
+              <div class="input-wrap">
+                <input
+                  type="text"
+                  minlength="4"
+                  class="input-field"
+                  required
+                />
+                <label>Name</label>
+              </div>
+
+              <div class="input-wrap">
+                <input type="email" class="input-field" required />
+                <label>Email</label>
+              </div>
+
+              <div class="input-wrap">
+                <input
+                  type="password"
+                  class="input-field"
+                  required
+                />
+                <label>Password</label>
+              </div>
+
+              <input type="submit" value="Sign Up" class="sign-btn" />
+
+              <p class="text">
+                By signing up, I agree to the
+                <a href="#">Terms of Services</a> and
+                <a href="#">Privacy Policy</a>
+              </p>
+            </div>
+          </form>
+        </div>
+
+        <div class="carousel">
+          <div class="images-wrapper">
+            <img src="images/image1.png" class="image img-1 show" alt="">
+            <img src="images/image2.png" class="image img-2" alt="">
+            <img src="images/image3.png" class="image img-3" alt="">
+          </div>
+
+          <div class="text-slider">
+            <div class="text-wrap">
+              <div class="text-group">
+                <h2>Create your own courses</h2>
+                <h2>Customize as you like</h2>
+                <h2>Invite students to your class</h2>
+              </div>
+            </div>
+        
+            <div class="bullets">
+              <span class="active" data-value="1"></span>
+              <span data-value="2"></span>
+              <span data-value="3"></span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
